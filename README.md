@@ -1,9 +1,9 @@
 # Pingdomcli
-Uses https://github.com/russellcardullo/go-pingdom/pingdom in order to manage pingdom from CLI.
+Uses https://github.com/russellcardullo/go-pingdom/pingdom in order to manage pingdom from CLI , thanks guys :) you did all work.
 
 ## Usage
 
 ```
-USAGE:
-   pingdom-cli checkName checkHostName userID.
+Create new host in pingdom:
+   pingdomcli checkName checkHostName userID.
 ```
