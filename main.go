@@ -19,9 +19,9 @@ func main() {
 	client := pingdom.NewClient(pingdomEmail, pingdomPassword, pingdomAPIKey)
 
 	app := cli.NewApp()
-	app.Name = "pindom-cli"
+	app.Name = "pindomcli"
 	app.Usage = "Set ENV vars for PINGDOM_EMAIL , PINGDOM_PASSWORD and PINGDOM_APIKEY"
-	app.UsageText = "pingdom-cli checkName checkHostName userID."
+	app.UsageText = "pingdomcli checkName checkHostName userID."
 	app.Version = "0.0.1"
 
 	app.Action = func(c *cli.Context) error {
