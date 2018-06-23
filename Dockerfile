@@ -10,4 +10,5 @@ WORKDIR /app/
 COPY --from=builder /go/src/github.com/pollosp/pingdomcli/pingdomcli .
 COPY --from=builder /etc/passwd /etc/passwd
 USER scratchuser
-CMD ["./pingdomcli","-h"]
+ENTRYPOINT ["./pingdomcli"]
+CMD [ ]
